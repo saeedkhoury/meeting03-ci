@@ -1,7 +1,7 @@
 name: CI
 on:
   pull_request:
-    branches: [khalid]
+    branches: [main]
 jobs:
   quality:
     runs-on: ubuntu-latest
